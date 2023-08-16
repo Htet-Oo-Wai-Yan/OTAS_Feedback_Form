@@ -11,3 +11,34 @@ body{
 .form-header{  
     text-align: center;
 }
+
+.rating-header{
+    letter-spacing: 3px;
+    display: inline-block;
+
+    position: relative;
+}
+
+.rating-header::before{
+    content: '';
+    width: 30px;
+    height: 13px;
+    border-radius: 2px;
+    background-color: #3E77CA;
+
+    position: absolute;
+    top: 5px;
+    right: -40px;
+}
+
+.rating-sect{
+    background-color: rgba(62, 119, 202, .6);
+}
+
+input[type="radio"]{
+    width: 25px;
+    height: 25px;
+    outline: 0;
+    color: #3E77CA;
+    border: 0;
+}
