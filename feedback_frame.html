@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTAS User Feedback Form</title>
+
+    <link rel="stylesheet" href="./feedback_style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#2E2E2E',
+                        n_text: "#FFFFFF",
+                        main_text: "#3E77CA",
+                        span_text: "#40BF77",
+                        cta: "#00BAFF",
+                        card_back: "#121212" 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background">
+    <div class="feedback-form m-6">
+
+        <div class="form-header flex flex-col text-n_text text-center my-10">
+            <h1 class="text-4xl font-bold">OTAS</h1>
+            <h2 class="text-2xl font-medium my-2">User Feedback Submit Form</h2>
+        </div>
+
+        <div class="feedback-popup-text bg-card_back text-center m-2 p-6 rounded-md">
+            <h2 class="text-main_text text-2xl font-semibold">We Value Your Feedback</h2>
+            <p class="text-n_text my-2 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aut impedit quo amet recusandae nemo repellendus consequatur quaerat fugit, placeat officiis, ducimus nesciunt. Itaque odit saepe cum sequi esse incidunt?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sunt recusandae, eaque veniam hic velit commodi dolor sequi non, numquam eos voluptatum praesentium possimus porro tenetur! Animi porro veniam exercitationem!
+            </p>
+        </div>
+
+        <form action="#" method="post">
+            <div class="outer-form"></div>
+        </form>
+
+    </div>
+</body>
+</html>
