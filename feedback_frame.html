@@ -9,6 +9,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script>
         tailwind.config = {
             theme: {
@@ -27,7 +29,7 @@
     </script>
 </head>
 <body class="bg-background">
-    <div class="feedback-form m-6">
+    <div class="feedback-form m-6  max-w-screen-md mx-auto">
 
         <div class="form-header flex flex-col text-n_text text-center my-10">
             <h1 class="text-4xl font-bold">OTAS</h1>
@@ -237,6 +239,112 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class="page testimonial-section my-6">
+                    <div class="sect-title text-n_text">
+                        <h3 class="rating-header uppercase font-bold">Testimonial</h3>
+                    </div>
+
+                    <div class="field testimonial-q1 my-9">
+                        <div class="label text-main_text text-2xl font-semibold my-2">
+                            We would like to use <span class="text-span_text">your testimonial</span> in our company portfolio.
+                        </div>
+
+                        <div class="label-description text-n_text my-2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquam numquam saepe explicabo nesciunt a obcaecati sequi sapiente culpa laboriosam molestiae suscipit mollitia quod, fugit atque harum aut, quia itaque?
+                        </div>
+
+                        <div class="testimonial-btn flex justify-evenly align-center my-6">
+                            
+                            <div class="agree-btn">
+                                <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Agree</button>
+                            </div>
+                            
+                            <div class="disgree-btn">
+                                <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Disagree</button>
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="field testimonial-q2 my-9">
+                        <div class="label text-main_text text-2xl font-semibold my-2">
+                            Your <span class="text-span_text">Honest Review</span> about us.
+                        </div>
+
+                        <div class="testimonial-textarea">
+                            <!-- <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-n_text dark:border-cta dark:placeholder-card_background dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write everything in your mind about this topic..."></textarea> -->
+                            <textarea id="user-testimonial" rows="4" class="block p-3 w-full text-sm text-cta bg-background rounded-sm border border-cta" placeholder="Write everything in your mind about this topic..."></textarea>
+                        </div>
+
+                        <div class="testimonial-user-infos my-6">
+                            
+                            <div class="testimonial-user-name user-input my-2">
+
+                                <label for="name" class="text-n_text font-bold text-sm">
+                                    Name
+                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                                </label>
+
+                            </div>
+
+                            <div class="testimonial-user-job-position user-input my-2">
+
+                                <label for="name" class="text-n_text font-bold text-sm">
+                                    Job Position
+                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                                </label>
+
+                            </div>
+
+                            <div class="testimonial-user-company-name user-input my-2">
+
+                                <label for="name" class="text-n_text font-bold text-sm">
+                                    Company Name
+                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                                </label>
+
+                            </div>
+                        
+                        </div>
+
+
+                    
+                    </div>
+
+                    <div class="field f-btn flex justify-evenly align-center">
+                        <div class="agree-btn">
+                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Previous</button>
+                        </div>
+                        
+                        <div class="disgree-btn">
+                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center" type="submit">
+                                Submit
+                                <i class="fa-solid fa-paper-plane text-n_text"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="page form-complete-popup flex justify-center align-center flex-col mt-9">
+                    <div class="complete-header text-center">
+                        <i class="fa-solid fa-file-export text-6xl text-main_text"></i>
+                        <h2 class="text-3xl font-semibold text-main_text mt-4">Form Submit Complete</h2>
+                    </div>
+
+                    <div class="complete-description text-n_text my-2 text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis ex beatae aperiam assumenda ab mollitia sint cumque unde impedit nulla molestiae ut, excepturi dolor non iure quia voluptate amet.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque rerum itaque expedita. Deleniti distinctio, id, ut dolorum itaque quasi tempore perferendis, repellendus iste a veniam iure autem impedit dignissimos?
+                    </div>
+
+                    <div class="field f-btn mx-auto my-4">
+                        <div class="close-btn">
+                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Close</button>
+                        </div>
+                    </div>
                 </div>
 
 
