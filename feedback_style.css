@@ -2,15 +2,25 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    /* background-color: #2E2E2E; */
 }
 
-.feedback-form{
+.bullet{
+    position: relative;
 }
+
+.bullet span{
+    line-height: 40px;
+    
+    position: absolute;
+    left: 50%;
+
+    transform: translateX(-50%);
+} 
 
 .form-header{  
     text-align: center;
 }
+
 
 .rating-header{
     letter-spacing: 3px;
@@ -42,3 +52,98 @@ input[type="radio"]{
     color: #3E77CA;
     border: 0;
 }
+
+
+.form-outer form{
+    width: 400%;
+}
+
+.form-outer form .page{
+    width: 25%;
+    transition: margin-left .3s ease-in-out;
+}
+
+.sect-num{
+    position: relative;
+}
+
+  .progress-bar{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0;
+    user-select: none;
+  }
+   .progress-bar .step{
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .progress-bar .step .bullet{
+      line-height: 40px;
+
+      display: inline-block;
+
+      position: relative;
+
+      margin: 0 auto;
+
+      transition: 0.2s;
+  }
+  .progress-bar .step .bullet.active{
+    border-color: #00BAFF;
+    background: #00BAFF;
+  }
+  .progress-bar .step .bullet span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .progress-bar .step .bullet.active span{
+    display: none;
+  }
+  .progress-bar .step .bullet:before,
+  .progress-bar .step .bullet:after{
+    position: absolute;
+    content: '';
+    bottom: 16px;
+    right: -62px;
+    height: 5px;
+    width: 45px;
+    background: #40BF77;
+  }
+  .progress-bar .step .bullet.active:after{
+    background: #00BAFF;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .progress-bar .step:last-child .bullet:before,
+  .progress-bar .step:last-child .bullet:after{
+    display: none;
+  }
+  .progress-bar .step p.active{
+    color: #00BAFF;
+    transition: 0.2s linear;
+  }
+  .progress-bar .step .check{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .progress-bar .step .check.active{
+    display: block;
+    color: #fff;
+  }

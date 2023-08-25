@@ -28,397 +28,346 @@
         }
     </script>
 </head>
+
 <body class="bg-background">
-    <div class="feedback-form m-6  max-w-screen-md mx-auto">
-
-        <div class="form-header flex flex-col text-n_text text-center my-10">
-            <h1 class="text-4xl font-bold">OTAS</h1>
-            <h2 class="text-2xl font-medium my-2">User Feedback Submit Form</h2>
+    <div class="feedback-form max-w-4xl mx-auto">
+        
+      <div class="form-details my-4 space-y-10 mx-auto">
+        
+        <!-- header and logo sect -->
+        <div class="header space-y-2 text-center text-sky-50">
+          <div class="logo text-2xl font-medium">OTAS</div>
+          <div class="logo-disc text-lg font-semibold">User Feedback Submit Form</div>
         </div>
-
-        <div class="feedback-popup-text bg-card_back text-center m-2 p-6 rounded-md">
-            <h2 class="text-main_text text-2xl font-semibold">We Value Your Feedback</h2>
-            <p class="text-n_text my-2 leading-loose">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aut impedit quo amet recusandae nemo repellendus consequatur quaerat fugit, placeat officiis, ducimus nesciunt. Itaque odit saepe cum sequi esse incidunt?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sunt recusandae, eaque veniam hic velit commodi dolor sequi non, numquam eos voluptatum praesentium possimus porro tenetur! Animi porro veniam exercitationem!
-            </p>
+    
+        <!-- feedback detail sect  -->
+        <div class="feedback-details bg-card_back mx-auto w-8/12 space-y-2 rounded-md p-4 text-center">
+          <h2 class="text-main_text text-lg font-bold text-lg lg:text-2xl">We Value Your Feedback</h2>
+          <p class="text-sm text-sky-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorem culpa dolore cum blanditiis, labore ex maiores? Asperiores blanditiis ullam magnam deserunt vitae doloremque. Illo ex delectus recusandae accusamus eligendi.</p>
         </div>
-
-        <div class="form-outer bg-card_back m-2 my-6 p-6 rounded-md">
+    
+        <!-- mini section navbar  -->
+        <div class="progress-bar space-x-1 mx-auto">
+            <div class="step space-y-2">
+               <p class="text-sm sm:text-base md:text-md lg:text-lg font-semibold text-span_text">
+                  Rating
+               </p>
+               <div class="bullet w-10 h-10 rounded-full border border-main-text bg-n_text text-span_text font-bold">
+                  <span class="text-lg">1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step space-y-2">
+               <p class="text-sm sm:text-base md:text-md lg:text-lg font-semibold text-span_text">
+                  Suggest
+               </p>
+               <div class="bullet w-10 h-10 rounded-full border border-main-text bg-n_text text-span_text font-bold">
+                  <span class="text-lg">2</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step space-y-2">
+               <p class="text-sm sm:text-base md:text-md lg:text-lg font-semibold text-span_text">
+                  Feedback
+               </p>
+               <div class="bullet w-10 h-10 rounded-full border border-main-text bg-n_text text-span_text font-bold">
+                  <span class="text-lg">3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+         </div>
+    
+        <!-- feedback form  -->
+        <div class="form-outer w-full h-min">
+          
             
-            <form action="#">
+            <div class="form bg-background mx-auto w-8/12 space-y-8 rounded-md py-3 overflow-hidden">
+            
+                <form action="#" class="flex">
 
-            <!-- Rating Section     -->
-                <div class="page rating-section">
+                    <!-- rating section  -->
+                    <div class="slide-page page bg-card_back rating-question-sect space-y-5 py-6 h-full rounded">
                     
-                    <div class="sect-title text-n_text">
+                    <div class="sect-title text-n_text space-y-2 p-4 max-w-lg mx-auto">
                         <h3 class="rating-header uppercase font-bold">Rating</h3>
                     </div>
 
-                    <div class="field rating-q1 my-9">
-                        <div class="label text-main_text text-2xl font-semibold my-2">
-                            Is our design is <span class="text-span_text">convivence to use</span> for you?
+                    <div class="rating-q1 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        Is our design is
+                        <span class="text-span_text font-bold"> convivence to use </span>
+                        for you?
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
+                        <div class="rating-sect mx-auto rounded-md bg-sky-600/30 max-w-lg py-12 px-16 ">
+                        <div class="rating-container align-center flex justify-center space-x-2 md:space-x-4 lg:space-x-6">
+                            <div class="r-5 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-base font-bold text-zinc-50 lg:text-2xl">5</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Great</span>
+                            </div>
+                            <div class="r-4 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">4</span>
+                            </div>
+                            <div class="r-3 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">3</span>
+                            </div>
+                            <div class="r-2 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">2</span>
+                            </div>
+                            <div class="r-1 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">1</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Bad</span>
+                            </div>
                         </div>
-
-                        <div class="label-description text-n_text my-2">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquam numquam saepe explicabo nesciunt a obcaecati sequi sapiente culpa laboriosam molestiae suscipit mollitia quod, fugit atque harum aut, quia itaque?
-                        </div>
-
-                        <div class="rating-sect text-n_text text-sm flex justify-evenly align-center rounded-md p-4 mt-3">
-                                  
-                            <div class="1-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="2-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="3-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Normal</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="4-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="5-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
-                    <div class="field rating-q2 my-9">
-                        <div class="label text-main_text text-2xl font-semibold my-2">
-                            Is our product <span class="text-span_text">help to solve</span> your problem?
+                    <div class="rating-q2 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        Is our product 
+                        <span class="text-span_text font-bold"> help to solve </span>
+                        your problems?
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
+                        <div class="rating-sect mx-auto rounded-md bg-sky-600/30 max-w-lg py-12 px-16 ">
+                        <div class="rating-container align-center flex justify-center space-x-2 md:space-x-4 lg:space-x-6">
+                            <div class="r-5 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-base font-bold text-zinc-50 lg:text-2xl">5</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Great</span>
+                            </div>
+                            <div class="r-4 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">4</span>
+                            </div>
+                            <div class="r-3 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">3</span>
+                            </div>
+                            <div class="r-2 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">2</span>
+                            </div>
+                            <div class="r-1 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">1</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Bad</span>
+                            </div>
                         </div>
-
-                        <div class="label-description text-n_text my-2">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquam numquam saepe explicabo nesciunt a obcaecati sequi sapiente culpa laboriosam molestiae suscipit mollitia quod, fugit atque harum aut, quia itaque?
-                        </div>
-
-                        <div class="rating-sect text-n_text text-sm flex justify-evenly align-center rounded-md p-4 mt-3">
-                                  
-                            <div class="1-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="2-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="3-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Normal</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="4-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="5-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
-                    <div class="field rating-q3 my-9">
-                        <div class="label text-main_text text-2xl font-semibold my-2">
-                            Are you <span class="text-span_text">satifield</span> with our product?
+                    <div class="rating-q3 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        Are you  
+                        <span class="text-span_text font-bold"> satifield </span>
+                        with our product?
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
+                        <div class="rating-sect mx-auto rounded-md bg-sky-600/30 max-w-lg py-12 px-16 ">
+                        <div class="rating-container align-center flex justify-center space-x-2 md:space-x-4 lg:space-x-6">
+                            <div class="r-5 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-base font-bold text-zinc-50 lg:text-2xl">5</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Great</span>
+                            </div>
+                            <div class="r-4 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">4</span>
+                            </div>
+                            <div class="r-3 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">3</span>
+                            </div>
+                            <div class="r-2 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">2</span>
+                            </div>
+                            <div class="r-1 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">1</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Bad</span>
+                            </div>
                         </div>
-
-                        <div class="label-description text-n_text my-2">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquam numquam saepe explicabo nesciunt a obcaecati sequi sapiente culpa laboriosam molestiae suscipit mollitia quod, fugit atque harum aut, quia itaque?
-                        </div>
-
-                        <div class="rating-sect text-n_text text-sm flex justify-evenly align-center rounded-md p-4 mt-3">
-                                  
-                            <div class="1-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="2-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Bad</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="3-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Normal</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="4-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
-                            <div class="5-star text-center">
-                                <div class="rating-label">
-                                    <label class="font-medium" for="#">Very Good</label>
-                                </div>
-                                <div class="rating-radio mt-2">
-                                    <input type="radio">
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
-
-                    <div class="field f-btn">
-                        <div class="next-btn text-card_back text-3xl bg-cta rounded-md text-center font-bold p-2">
+                    <div class="field f-btn nextBtn flex justify-center align-center">
+                        <button class="next-btn w-8/12 text-card_back text-2xl bg-cta rounded-md text-center font-bold p-2">
+                        <a href="#">
                             Next
-                        </div>
+                        </a>
+                        </button>
                     </div>
 
-                </div>
+                    </div>
 
-            <!-- Suggestion Section -->
-                <div class="page suggestion-section my-6">
-                    <div class="sect-title text-n_text">
+                    <!-- suggestion section  -->
+                    <div class="page suggestion-question-sect bg-card_back w-1/4 space-y-5 py-6 h-full rounded">
+
+                    <div class="sect-title text-n_text space-y-2 p-4 max-w-lg mx-auto">
                         <h3 class="rating-header uppercase font-bold">Suggestion</h3>
                     </div>
 
-                    <div class="field suggestion-q1 my-12">
-                        <div class="label text-main_text text-2xl font-semibold">
-                            We value <span class="text-span_text">your suggestions</span> about what we need to improve in our service?
-                        </div>
-
-                        <div class="label-description text-n_text my-2">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum reiciendis libero deserunt repellat ab perferendis asperiores vitae earum sit incidunt assumenda, aliquid doloremque nam at officiis! Asperiores nesciunt optio magnam.</p>
-                        </div>
-
+                    <div class="suggestion-q1 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        We value 
+                        <span class="text-span_text font-bold"> your suggestion </span>
+                        about what we need to improve in our service.
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
                         <div class="suggestion-textarea">
-                            <textarea name="" id="user-suggestion" rows="4" class="block w-full bg-background p-3 border border-cta text-sm rounded-sm" placeholder="Writing everything in your mind about this topic"></textarea>
+                            <textarea name="" id="user-suggestion" rows="4" class="block w-full bg-background p-3 border border-cta text-sm rounded-md text-span_text font-medium" placeholder="Writing everything in your mind about this topic"></textarea>
                         </div>
-                    </div>
-
-                    <div class="field suggestion-q2 my-6">
-                        <div class="label text-main_text text-2xl font-semibold">
-                            Can you set <span class="text-span_text">overall rating</span> about our service?
-                        </div>
-
-                        <div class="label-description text-n_text my-2">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo earum, velit ducimus consequuntur, minus ad, rem vel officiis excepturi aliquid laborum assumenda quasi iusto blanditiis error corrupti commodi doloremque sed?</p>
-                        </div>
-                    </div>
-
-                    <div class="rating-sect text-n_text text-sm flex justify-evenly align-center rounded-md p-4 mt-3">
-                        <div class="star-1 text-center">
-                            <div class="rating-label">
-                                <label class="font-medium" for="#">Very Bad</label>
-                            </div>
-                            <div class="rating-radio mt-2">
-                                <input type="radio"/>
-                            </div>
-                        </div>
-
-                        <div class="star-2 text-center">
-                            <div class="rating-label">
-                                <label class="font-medium" for="#">Bad</label>
-                            </div>
-                            <div class="rating-radio mt-2">
-                                <input type="radio"/>
-                            </div>
-                        </div>
-
-                        <div class="star-3 text-center">
-                            <div class="rating-label">
-                                <label class="font-medium" for="#">Normal</label>
-                            </div>
-                            <div class="rating-radio mt-2">
-                                <input type="radio"/>
-                            </div>
-                        </div>
-
-                        <div class="star-4 text-center">
-                            <div class="rating-label">
-                                <label class="font-medium" for="#">Good</label>
-                            </div>
-                            <div class="rating-radio mt-2">
-                                <input type="radio"/>
-                            </div>
-                        </div>
-
-                        <div class="star-5 text-center">
-                            <div class="rating-label">
-                                <label class="font-medium" for="#">Very Good</label>
-                            </div>
-                            <div class="rating-radio mt-2">
-                                <input type="radio"/>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="suggestion-btn flex justify-evenly align-center my-6">
-                        <div class="previous-btn">
-                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Previous</button>
-                        </div>
-                        <div class="next-btn">
-                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Next</button>
-                        </div>
-                    </div>
-                </div>
-
-            <!-- Testimonial Section -->
-                <div class="page testimonial-section my-6">
-                    <div class="sect-title text-n_text">
-                        <h3 class="rating-header uppercase font-bold">Testimonial</h3>
-                    </div>
-
-                    <div class="field testimonial-q1 my-9">
-                        <div class="label text-main_text text-2xl font-semibold my-2">
-                            We would like to use <span class="text-span_text">your testimonial</span> in our company portfolio.
-                        </div>
-
-                        <div class="label-description text-n_text my-2">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquam numquam saepe explicabo nesciunt a obcaecati sequi sapiente culpa laboriosam molestiae suscipit mollitia quod, fugit atque harum aut, quia itaque?
-                        </div>
-
-                        <div class="testimonial-btn flex justify-evenly align-center my-6">
-                            
-                            <div class="agree-btn">
-                                <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Agree</button>
-                            </div>
-                            
-                            <div class="disgree-btn">
-                                <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Disagree</button>
-                            </div>
-                        
-                        </div>
-
-                    </div>
-
-                    <div class="field testimonial-q2 my-9">
-                        <div class="label text-main_text text-2xl font-semibold my-2">
-                            Your <span class="text-span_text">Honest Review</span> about us.
-                        </div>
-
-                        <div class="testimonial-textarea">
-                            <!-- <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-n_text dark:border-cta dark:placeholder-card_background dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write everything in your mind about this topic..."></textarea> -->
-                            <textarea id="user-testimonial" rows="4" class="block p-3 w-full text-sm text-cta bg-background rounded-sm border border-cta" placeholder="Write everything in your mind about this topic..."></textarea>
-                        </div>
-
-                        <div class="testimonial-user-infos my-6">
-                            
-                            <div class="testimonial-user-name user-input my-2">
-
-                                <label for="name" class="text-n_text font-bold text-sm">
-                                    Name
-                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
-                                </label>
-
-                            </div>
-
-                            <div class="testimonial-user-job-position user-input my-2">
-
-                                <label for="name" class="text-n_text font-bold text-sm">
-                                    Job Position
-                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
-                                </label>
-
-                            </div>
-
-                            <div class="testimonial-user-company-name user-input my-2">
-
-                                <label for="name" class="text-n_text font-bold text-sm">
-                                    Company Name
-                                    <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
-                                </label>
-
-                            </div>
-                        
-                        </div>
-
-
                     
                     </div>
 
-                    <div class="field f-btn flex justify-evenly align-center">
-                        <div class="agree-btn">
-                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Previous</button>
+                    <div class="suggestion-q2 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        Can you set 
+                        <span class="text-span_text font-bold"> overall reting </span>
+                        about our service?
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
+                        <div class="rating-sect mx-auto rounded-md bg-sky-600/30 max-w-lg py-12 px-16 ">
+                        <div class="rating-container align-center flex justify-center space-x-2 md:space-x-4 lg:space-x-6">
+                            <div class="r-5 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-base font-bold text-zinc-50 lg:text-2xl">5</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Great</span>
+                            </div>
+                            <div class="r-4 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">4</span>
+                            </div>
+                            <div class="r-3 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">3</span>
+                            </div>
+                            <div class="r-2 md:hg-14 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">2</span>
+                            </div>
+                            <div class="r-1 md:hg-14 relative flex h-6 w-6 cursor-pointer items-center justify-center space-y-2 rounded-md bg-sky-500 p-4 lg:p-7 text-center md:w-14 lg:h-20 lg:w-20 lg:space-y-6">
+                            <span class="text-lg font-bold text-zinc-50 lg:text-2xl">1</span>
+                            <span class="absolute top-9 inline-block text-sm text-gray-100 lg:top-16 lg:text-lg">Bad</span>
+                            </div>
                         </div>
-                        
-                        <div class="disgree-btn">
-                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center" type="submit">
-                                Submit
-                                <i class="fa-solid fa-paper-plane text-n_text"></i>
-                            </button>
                         </div>
                     </div>
 
-                </div>
+                    <div class="field f-btn flex justify-center align-center space-x-6 lg:space-x-12">
+                        
+                        <button class="prev-btn-1 w-20 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2">
+                        <a href="#">
+                            Previous
+                        </a>
+                        </button>
+                        
+                        <button class="next-btn-1 w-20 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2">
+                        <a href="#">
+                            Next
+                        </a>
+                        </button>
+        
+                    </div>
 
-            <!-- Popup Section     -->
-                <div class="page form-complete-popup flex justify-center align-center flex-col mt-9">
+                    </div>
+
+                    <!-- testimonial section  -->
+                    <div class="page testimonial-sect bg-card_back w-1/4 space-y-5 py-6 h-full rounded">
+
+                    <div class="sect-title text-n_text space-y-2 p-4 max-w-lg mx-auto">
+                        <h3 class="rating-header uppercase font-bold">Testimonial</h3>
+                    </div>
+
+                    <div class="testimonial-q1 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        We would like to use  
+                        <span class="text-span_text font-bold"> your testimonial </span>
+                        in our company portfolio.
+                        </h2>
+            
+                        <p class="text-n_text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum nisi alias maxime ex corporis, dolorem totam nulla voluptate consectetur non eveniet amet velit cupiditate! Ducimus reprehenderit nam nulla odit?</p>
+            
+                        <div class="field cta-btn flex justify-center align-center space-x-6 lg:space-x-12">
+                        
+                        <button class="prev-btn w-20 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2">
+                            <a href="#">
+                            Agree
+                            </a>
+                        </button>
+                        
+                        <button class="next-btn w-20 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2">
+                            <a href="#">
+                            Disagree
+                            </a>
+                        </button>
+        
+                        </div>
+                    
+                    </div>
+
+                    <div class="testimonial-q2 space-y-5 p-4 max-w-lg mx-auto">
+                        <h2 class="text-main_text font-semibold text-lg lg:text-2xl">
+                        Your  
+                        <span class="text-span_text font-bold"> honest review </span>
+                        about us.
+                        </h2>
+                
+                        <div class="suggestion-textarea">
+                            <textarea name="" id="user-suggestion" rows="4" class="block w-full bg-background p-3 border border-cta text-sm rounded-md text-span_text font-medium" placeholder="Writing everything in your mind about this topic"></textarea>
+                        </div>
+
+                        <div class="testimonial-user-infos">
+                                    
+                        <div class="testimonial-user-name user-input my-2">
+
+                            <label for="name" class="text-n_text font-bold text-sm">
+                                Name
+                                <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                            </label>
+
+                        </div>
+
+                        <div class="testimonial-user-job-position user-input my-2">
+
+                            <label for="name" class="text-n_text font-bold text-sm">
+                                Job Position
+                                <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                            </label>
+
+                        </div>
+
+                        <div class="testimonial-user-company-name user-input my-2">
+
+                            <label for="name" class="text-n_text font-bold text-sm">
+                                Company Name
+                                <input type="text" class="block p-3 w-full bg-background outline-none text-cta uppercase font-medium border-b-4 border-cta rounded-sm relative my-2">
+                            </label>
+
+                        </div>
+                    
+                    </div>
+                    
+                    </div>
+
+                    <div class="field f-btn flex justify-center align-center space-x-6 lg:space-x-12">
+                        
+                        <button class="prev-btn-2 w-25 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2">
+                        <a href="#">
+                            Previous
+                        </a>
+                        </button>
+                        
+                        <button class="submit-btn w-25 lg:w-40 text-card_back text-md lg:text-2xl bg-cta rounded-md text-center font-bold p-2" type="submit">
+                        Submit
+                        <i class="fa-solid fa-paper-plane text-n_text"></i>
+                        </button>
+        
+                    </div>
+
+                    </div> 
+
+                    <!--Feedback complete popup section  -->
+                    <div class="page feedback-popup-sect bg-card_back space-y-5 p-4 mx-auto py-6 h-full rounded">
+                    
                     <div class="complete-header text-center">
                         <i class="fa-solid fa-file-export text-6xl text-main_text"></i>
                         <h2 class="text-3xl font-semibold text-main_text mt-4">Form Submit Complete</h2>
@@ -429,19 +378,30 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque rerum itaque expedita. Deleniti distinctio, id, ut dolorum itaque quasi tempore perferendis, repellendus iste a veniam iure autem impedit dignissimos?
                     </div>
 
-                    <div class="field f-btn mx-auto my-4">
-                        <div class="close-btn">
-                            <button class="bg-cta font-bold text-card_back text-2xl p-2 px-6 rounded-md text-center">Close</button>
-                        </div>
+                    <div class="field f-btn flex justify-center align-center my-4">
+
+                        <button class="form-close-btn w-8/12 text-card_back text-2xl bg-cta rounded-md text-center font-bold p-2">
+                            <a href="#">
+                            Close
+                            </a>
+                        </button>
+
                     </div>
-                </div>
+                    
+                    </div>
+                
+                </form>
+          
+          </div>
 
-
-
-            </form>
-        
+          
         </div>
+      </div>
 
     </div>
+
+    <script src="./feedback_script.js"></script>
+
 </body>
+
 </html>
